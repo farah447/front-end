@@ -4,7 +4,7 @@ const App = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('https://backend-vercel-gold.vercel.app/products')
+    fetch('https://backend-vercel-eelyh3tf2-farahs-projects-f1924238.vercel.app/products')
       .then((res) => res.json())
       .then((data) => setProducts(data.products));
   }, []);
